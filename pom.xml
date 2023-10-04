@@ -36,12 +36,7 @@
 </dependency>
 
  
-
- 
-
- 
-
-		<dependency>
+<dependency>
 
 <groupId>org.apache.logging.log4j</groupId>
 

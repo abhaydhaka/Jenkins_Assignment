@@ -17,19 +17,11 @@ pipeline {
 
                 // To run Maven on a Windows agent, use
              bat "mvn -Dmaven.test.failure.ignore=true clean test"
+              }
+
+ 
+
             }
-            stage('Hello1') {
-                steps {
-                echo 'Hello World'
-                    }
-            stage('Hello2') {
-                steps {
-                echo 'Hello World'
-                    }
-             stage('Hello3') {
-                steps {
-                echo 'Hello World'
-                    }
             stage('Hello4') {
                 steps {
                 echo 'Hello World'
@@ -37,4 +29,3 @@ pipeline {
             }
         }
     }
-}

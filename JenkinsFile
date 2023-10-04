@@ -22,7 +22,17 @@ pipeline {
  
 
             }
-            stage('Hello4') {
+            stage('Hello_Pre') {
+                steps {
+                echo 'Hello World'
+                    }
+            }
+            stage('Hello_Mid') {
+                steps {
+                echo 'Hello World'
+                    }
+            }
+            stage('Hello_Post') {
                 steps {
                 echo 'Hello World'
                     }
